@@ -12,9 +12,7 @@ public class InfoController {
 
     @Value("${app.version}")
     private String version;
-
-    @Value("${app.name}")
-    private String name;
+    
 
 
     @GetMapping("/info")
